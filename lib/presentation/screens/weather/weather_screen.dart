@@ -7,6 +7,8 @@ import 'package:mars_weather/presentation/screens/weather/widgets/forcast_widget
 import 'package:mars_weather/presentation/screens/weather/widgets/gradient_background.dart';
 
 class WeatherScreen extends StatefulWidget {
+  const WeatherScreen({super.key});
+
   @override
   State<WeatherScreen> createState() => _WeatherScreenState();
 }
