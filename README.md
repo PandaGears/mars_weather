@@ -22,12 +22,11 @@ A clean, modular weather app built in Flutter that uses the OpenWeatherMap API t
 
 This app is structured into clear logical modules:
 
-lib/
-├── models/ # Weather and Forecast data models
-├── services/ # API fetching logic
-├── widgets/ # UI components (current weather, forecast)
-├── utils/ # Gradient helper
-├── main.dart # UI state + screen layout
+- lib
+  - models/ # Weather and Forecast data models
+  - services/ # API fetching logic
+  - widgets/ # UI components (current weather, forecast, Gradient helper)
+  - main.dart # UI state + screen layout
 
 
 This modular separation:
